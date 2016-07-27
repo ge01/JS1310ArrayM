@@ -35,3 +35,20 @@ function pushFunction() {
   fruits.push("Kiwi");
   document.getElementById("push-function").innerHTML = fruits;
 }
+
+/****************************************************
+*                 Shifting Elements                 *
+****************************************************/
+document.getElementById("my-shift").innerHTML = fruits;
+
+function myShift() {
+  fruits.shift();
+  document.getElementById("my-shift").innerHTML = fruits;
+}
+
+document.getElementById("unshift-function").innerHTML = fruits;
+
+function unshiftFunction() {
+  fruits.unshift("Lemon");
+  document.getElementById("unshift-function").innerHTML = fruits;
+}

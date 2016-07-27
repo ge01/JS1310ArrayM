@@ -52,3 +52,13 @@ function unshiftFunction() {
   fruits.unshift("Lemon");
   document.getElementById("unshift-function").innerHTML = fruits;
 }
+
+/****************************************************
+*                 Changing Elements                 *
+****************************************************/
+document.getElementById("change-function").innerHTML = fruits;
+
+function changeFunction() {
+  fruits[0] = "Kiwi";
+  document.getElementById("change-function").innerHTML = fruits;
+}
